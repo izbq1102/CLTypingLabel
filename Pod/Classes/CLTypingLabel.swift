@@ -56,7 +56,7 @@ import UIKit
     private var typingStopped: Bool = false
     private var typingOver: Bool = true
     private var stoppedSubstring: String?
-    private var attributes: [NSAttributedStringKey: Any]?
+    private var attributes: [NSAttributedString.Key: Any]?
     private var currentDispatchID: Int = 320
     private let dispatchSerialQ = DispatchQueue(label: "CLTypingLableQueue")
     /*
