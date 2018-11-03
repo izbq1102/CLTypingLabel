@@ -139,7 +139,7 @@ import UIKit
     // MARK: -
     // MARK: Set Text Typing Recursive Loop
     
-    private func setTextWithTypingAnimation(_ typedText: String, _ attributes: Dictionary<NSAttributedStringKey, Any>?, _ charInterval: TimeInterval, _ initial: Bool, _ dispatchID: Int) {
+    private func setTextWithTypingAnimation(_ typedText: String, _ attributes: Dictionary<NSAttributedString.Key, Any>?, _ charInterval: TimeInterval, _ initial: Bool, _ dispatchID: Int) {
         
         guard typedText.count > 0 && currentDispatchID == dispatchID else {
             typingOver = true
